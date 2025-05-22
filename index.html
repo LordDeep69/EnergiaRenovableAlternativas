@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energías Renovables Alternativas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Navegación -->
+        <nav class="slide-nav">
+            <button class="nav-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <span class="slide-counter">1 / 18</span>
+            <button class="nav-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </nav>
+
+        <!-- Controles de descarga -->
+        <div class="download-controls">
+            <button class="download-btn" id="downloadPDF">
+                <i class="fas fa-file-pdf"></i> 
+                <span class="btn-text">PDF</span>
+            </button>
+            <button class="download-btn" id="downloadPPT">
+                <i class="fas fa-file-powerpoint"></i> 
+                <span class="btn-text">PowerPoint</span>
+            </button>
+        </div>
+
+        <!-- Diapositiva 1: Portada -->
+        <div class="slide active" id="slide-1">
+            <div class="slide-background">
+                <div class="energy-particles"></div>
+            </div>
+            
+            <div class="slide-content">
+                <div class="title-section">
+                    <h1 class="main-title">
+                        <span class="title-line">Energías Renovables</span>
+                        <span class="title-line highlight">del Futuro</span>
+                    </h1>
+                    <p class="subtitle">Biomasa • Geotérmica • Mareomotriz • Energía de las Olas • Térmica Solar</p>
+                </div>
+                
+                <div class="energy-icons">
+                    <div class="energy-icon biomass">
+                        <i class="fas fa-leaf"></i>
+                        <span>Biomasa</span>
+                    </div>
+                    <div class="energy-icon geothermal">
+                        <i class="fas fa-mountain"></i>
+                        <span>Geotérmica</span>
+                    </div>
+                    <div class="energy-icon tidal">
+                        <i class="fas fa-water"></i>
+                        <span>Mareomotriz</span>
+                    </div>
+                    <div class="energy-icon wave">
+                        <i class="fas fa-wave-square"></i>
+                        <span>Olas</span>
+                    </div>
+                    <div class="energy-icon solar-thermal">
+                        <i class="fas fa-sun"></i>
+                        <span>Térmica Solar</span>
+                    </div>
+                </div>
+
+                <div class="presentation-info">
+                    <p class="date">Mayo 2025</p>
+                    <p class="author">Presentación Técnica Especializada</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diapositiva 2: Índice/Agenda -->
+        <div class="slide" id="slide-2">
+            <div class="slide-background">
+                <div class="grid-pattern"></div>
+            </div>
+            
+            <div class="slide-content agenda-slide">
+                <header class="slide-header">
+                    <h1 class="slide-title">Agenda de Presentación</h1>
+                    <p class="slide-subtitle">Explorando el futuro de las energías renovables alternativas</p>
+                </header>
+
+                <div class="agenda-container">
+                    <div class="agenda-section intro-section">
+                        <div class="section-header">
+                            <div class="section-number">01</div>
+                            <h3>Introducción</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-globe-americas"></i></span>
+                                <span class="item-text">Contexto Global Energético</span>
+                                <span class="item-slides">Diapositiva 3</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-chart-bar"></i></span>
+                                <span class="item-text">Panorama General Comparativo</span>
+                                <span class="item-slides">Diapositiva 4</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda-section biomass-section">
+                        <div class="section-header">
+                            <div class="section-number">02</div>
+                            <h3>Energía de Biomasa</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-leaf"></i></span>
+                                <span class="item-text">Fundamentos y Tipos</span>
+                                <span class="item-slides">Diapositiva 5</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-cogs"></i></span>
+                                <span class="item-text">Tecnologías y Aplicaciones</span>
+                                <span class="item-slides">Diapositiva 6</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-balance-scale"></i></span>
+                                <span class="item-text">Ventajas y Desafíos</span>
+                                <span class="item-slides">Diapositiva 7</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda-section geothermal-section">
+                        <div class="section-header">
+                            <div class="section-number">03</div>
+                            <h3>Energía Geotérmica</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-mountain"></i></span>
+                                <span class="item-text">Principios Fundamentales</span>
+                                <span class="item-slides">Diapositiva 8</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-industry"></i></span>
+                                <span class="item-text">Tecnologías y Clasificación</span>
+                                <span class="item-slides">Diapositiva 9</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-trophy"></i></span>
+                                <span class="item-text">Casos de Éxito Mundial</span>
+                                <span class="item-slides">Diapositiva 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda-section marine-section">
+                        <div class="section-header">
+                            <div class="section-number">04</div>
+                            <h3>Energías Marinas</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-water"></i></span>
+                                <span class="item-text">Energía Mareomotriz</span>
+                                <span class="item-slides">Diapositivas 11-12</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-wave-square"></i></span>
+                                <span class="item-text">Energía de las Olas</span>
+                                <span class="item-slides">Diapositivas 13-14</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda-section solar-section">
+                        <div class="section-header">
+                            <div class="section-number">05</div>
+                            <h3>Energía Térmica Solar</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-sun"></i></span>
+                                <span class="item-text">Tecnología CSP</span>
+                                <span class="item-slides">Diapositiva 15</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-battery-full"></i></span>
+                                <span class="item-text">Almacenamiento y Eficiencia</span>
+                                <span class="item-slides">Diapositiva 16</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda-section conclusion-section">
+                        <div class="section-header">
+                            <div class="section-number">06</div>
+                            <h3>Análisis y Conclusiones</h3>
+                        </div>
+                        <div class="agenda-items">
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-chart-line"></i></span>
+                                <span class="item-text">Comparativa Final</span>
+                                <span class="item-slides">Diapositiva 17</span>
+                            </div>
+                            <div class="agenda-item">
+                                <span class="item-icon"><i class="fas fa-rocket"></i></span>
+                                <span class="item-text">Futuro y Perspectivas</span>
+                                <span class="item-slides">Diapositiva 18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agenda-footer">
+                    <div class="duration-info">
+                        <i class="fas fa-clock"></i>
+                        <span>Duración estimada: 25-30 minutos</span>
+                    </div>
+                    <div class="image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                             alt="Energías Renovables" class="agenda-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts al final para evitar conflictos -->
+    <script src="logic.js"></script>
+    
+    <!-- Scripts de descarga (cargar después) -->
+    <script>
+        // Cargar librerías de descarga de forma asíncrona
+        function loadDownloadLibraries() {
+            const scripts = [
+                'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
+                'https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js'
+            ];
+            
+            let loadedCount = 0;
+            
+            scripts.forEach(src => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = () => {
+                    loadedCount++;
+                    if (loadedCount === scripts.length) {
+                        console.log('✅ Librerías de descarga cargadas');
+                        if (window.presentation) {
+                            window.presentation.enableDownloads();
+                        }
+                    }
+                };
+                script.onerror = () => {
+                    console.error('❌ Error cargando:', src);
+                };
+                document.head.appendChild(script);
+            });
+        }
+        
+        // Cargar librerías después de que la página esté lista
+        setTimeout(loadDownloadLibraries, 2000);
+    </script>
+</body>
+</html>
